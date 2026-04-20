@@ -1,6 +1,10 @@
-#sum of two number
+# operator in python
 
-a=3;
-b=2;
-sum = a+b
-print(sum)
+a = 5
+b = 2
+
+print(a + b)  # addition
+print(a - b)  # subtraction
+print(a * b)  # multiplication
+print(a / b)  # division
+print(a % b)  # modulus (remainder)
