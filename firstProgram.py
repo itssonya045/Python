@@ -1,10 +1,6 @@
-# operator in python
+#sum of two number
+num1 = int(input("enter your first number : "))
+num2 = int(input("enter your second number : "))
 
-a = 5
-b = 2
-
-print(a + b)  # addition
-print(a - b)  # subtraction
-print(a * b)  # multiplication
-print(a / b)  # division
-print(a % b)  # modulus (remainder)
+sum = num1 + num2
+print(sum)
