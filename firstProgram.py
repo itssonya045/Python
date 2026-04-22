@@ -1,10 +1,12 @@
-# Indexing in string
+# grade based on their marks 
 
-str1 = "Hello"
+marks = int(input("enter your marks : " ))
 
-print(str1[0])
-print(str1[1])
-print(str1[2])  
-print(str1[3])
-print(str1[4])
-print(str1[ : 5])
+if(marks >= 90 and marks < 100) :
+    print("grade : A")
+elif(marks >= 80 and marks < 90) :
+    print("grade : B")
+elif(marks >= 70 and marks <80) :
+    print("grade : c")
+else :
+    print("grade : D")
