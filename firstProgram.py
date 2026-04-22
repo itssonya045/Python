@@ -1,6 +1,10 @@
-# string concatenation 
+# Indexing in string
 
 str1 = "Hello"
-str2 = "World"
 
-print(str1 + str2)
+print(str1[0])
+print(str1[1])
+print(str1[2])  
+print(str1[3])
+print(str1[4])
+print(str1[ : 5])
