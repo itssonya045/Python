@@ -1,6 +1,6 @@
-#sum of two number
-num1 = int(input("enter your first number : "))
-num2 = int(input("enter your second number : "))
+# string concatenation 
 
-sum = num1 + num2
-print(sum)
+str1 = "Hello"
+str2 = "World"
+
+print(str1 + str2)
