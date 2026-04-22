@@ -1,12 +1,13 @@
-# grade based on their marks 
+#which is greathest number among them 
 
-marks = int(input("enter your marks : " ))
+num1= int(input("enter your no : " ))
+num2 = int(input("enter your no : " ))
+num3 = int(input("enter your no : " ))
 
-if(marks >= 90 and marks < 100) :
-    print("grade : A")
-elif(marks >= 80 and marks < 90) :
-    print("grade : B")
-elif(marks >= 70 and marks <80) :
-    print("grade : c")
+
+if(num1 >= num2 and num1 >= num3) :
+    print("num1 is greather")
+elif(num2 >= num1 and num2 >=  num3) :
+    print("num2 is greather")
 else :
-    print("grade : D")
+    print("num3 is greather")
